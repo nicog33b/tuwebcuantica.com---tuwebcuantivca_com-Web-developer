@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.colorPrincipal{
+  background-color: #d6d7ec  ;
+}
+
+.colorSecondary{
+  background-color: #ffffff  ;
+}
+
+.colorLetra {
+  color:#04171b;
+}
+.colorButton1{
+  background-color:#0e0330;
+}
+
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
