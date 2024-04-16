@@ -4,38 +4,34 @@ import SectionTitle from "../sectionTitle";
 
 const ServiciosHome = () => {
   return (
-    <div>
-      <section id="services" className="colorSecondary mb-9">
-        <div className="py-12 m-3 ">
-          {/* SECTION TITLE */}
-          <SectionTitle
-            textColorClass="text-gray-800"
-            titulo="Observa cómo transformamos tu brillante idea de aplicación en una realidad inspiradora en millones de dispositivos."
-          ></SectionTitle>
-
-          {/*CARDS */}
-
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6 p-3 ">
-            <ServiceCard
-              imageSrc="/services/web services.png"
-              title="Desarrollo Web a Medida"
-              description="Diseñamos y desarrollamos aplicaciones web que se adaptan perfectamente a cualquier dispositivo, asegurando una experiencia premium para los usuarios, independientemente de las especificaciones técnicas de su dispositivo. Nuestro enfoque garantiza una navegación fluida y eficiente, mejorando la visibilidad y el rendimiento de tu presencia en línea."
-            />
-            <ServiceCard
-              imageSrc="/services/software apps.png"
-              title="Desarrollo de Software a Medida"
-              description="En nuestro servicio de Desarrollo de Software, creamos soluciones personalizadas que se ajustan a tus necesidades específicas. Desde aplicaciones empresariales hasta sistemas complejos, nos comprometemos a ofrecer soluciones de software innovadoras y eficientes."
-            />
-            <ServiceCard
-              imageSrc="/services/social medias.png"
-              title="Estrategias de Marketing Digital y Gestión de Redes Sociales"
-              description="En nuestro servicio de Marketing Digital, potenciamos tu presencia en línea mediante estrategias especializadas y gestión proactiva de redes sociales. Desde la creación de contenido impactante hasta la implementación de tácticas de engagement, trabajamos para impulsar tu marca y conectar con tu audiencia de manera efectiva"
-            />
-          </div>
+    <div className="bg-gray-50">
+      <section id="services" className="py-12 mx-auto max-w-7xl">
+        {/* SECTION TITLE */}
+        <SectionTitle
+          textColorClass="text-gray-900"
+          titulo="Innovando en la Intersección de Tecnología y Creatividad"
+        />
+  
+        {/* CARDS */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-6 py-12">
+          <ServiceCard
+            imageSrc="/services/web services.png"
+            title="Web Crafting a Escala"
+            description="Plataformas web ultramodernas diseñadas para el éxito empresarial. Optimizadas para SEO y perfectamente responsivas."
+          />
+          <ServiceCard
+            imageSrc="/services/software apps.png"
+            title="Arquitectura de Software Premium"
+            description="Soluciones software a medida, construidas con las últimas stacks tecnológicas para asegurar máxima eficiencia operativa."
+          />
+          <ServiceCard
+            imageSrc="/services/social medias.png"
+            title="Estrategias de Impacto Digital"
+            description="Estrategias de marketing digital que elevan y transforman la presencia digital. Enfoque en resultados medibles y engagement significativo."
+          />
         </div>
       </section>
     </div>
   );
-};
-
+}
 export default ServiciosHome;

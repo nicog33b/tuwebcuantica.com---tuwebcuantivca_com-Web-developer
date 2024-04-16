@@ -1,23 +1,20 @@
-// ServiceCard.js
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 const ServiceCard = ({ imageSrc, title, description }) => {
   return (
-    <section className='cardService'>
+    <section className='overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out'>
       <Link href='/directContact'>
-    <div  className='border-2 border-solid border-color-grey text-center py-12 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in-duration-200 hover:bg-[#f8f5f5] mr-3 ml-3'>
-      <div className='bg-color-secondary inline-block rounded-2xl py-5 px-6'>
-        <Image className='h-full w-full' src={imageSrc} alt={title} width='600' height='600' />
-      </div>
-      <h3 className='text-xl font-bold py-4 text-black select-none'>{title}</h3>
-      <p className='leading-relaxed text-black select-none'>{description}</p>
-    </div>
-    </Link>
+        <div className='border-2 border-gray-300 hover:border-gray-400 text-center p-5 cursor-pointer hover:bg-gray-100'>
+          <div className='inline-block w-full h-56 relative mb-4'>
+            <Image src={imageSrc} alt={title} layout='fill' objectFit='cover' className='rounded-lg' />
+          </div>
+          <h3 className='text-xl font-semibold text-gray-900 mb-2'>{title}</h3>
+          <p className='text-gray-700'>{description}</p>
+        </div>
+      </Link>
     </section>
-
-
   );
 };
 

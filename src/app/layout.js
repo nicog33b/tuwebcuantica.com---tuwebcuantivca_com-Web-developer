@@ -8,27 +8,26 @@ import Banner from "./components/UI/banner";
 import Footer from './components/UI/footer';
 
 export const metadata = {
-  title: 'TuWebCuantica | Desarrollo Web, Software y Marketing Digital',
-  description: 'Creamos soluciones web a medida, desarrollamos software innovador e impulsamos tu negocio con estrategias de marketing digital efectivas.',
-  keywords: 'agencia web, diseño web, desarrollo web, software a medida, marketing digital, SEO, SEM, redes sociales, marketing de contenidos, comercio electrónico, aplicaciones web, plataformas web, gestión de proyectos, análisis de datos, resultados tangibles, crecimiento online, servicios digitales, Uruguay, Latinoamérica, expertos en desarrollo web, estrategias de marketing efectivas.',
-  author: 'Nicolás García, @tuweb_cuantica',
-  image: 'https://i.ibb.co/TP427vY/tuweb-logo.png',
+  title: 'TuWebCuántica | Líder en Desarrollo Web y Marketing Digital en Uruguay',
+  description: 'En TuWebCuántica, transformamos ideas en soluciones digitales innovadoras que capturan y fidelizan a tu audiencia. Especialistas en desarrollo web, software a medida y estrategias de marketing digital adaptadas a las dinámicas del mercado latinoamericano.',
+  keywords: 'desarrollo web Uruguay, marketing digital Latinoamérica, software personalizado, SEO local, gestión de redes sociales, comercio electrónico en Uruguay, soluciones TI, optimización de motores de búsqueda, crecimiento empresarial online, expertos en IT en Uruguay, marketing de contenidos efectivo, analítica web avanzada',
+  author: 'Nicolás García, @tuweb_cuántica',
+  image: 'https://i.ibb.co/DY7YV0g/ultimate-Logo.png',
   url: 'https://www.tuwebcuantica.com',
   type: 'website',
   locale: 'es_UY',
-  siteName: 'TuWebCuantica',
-  robots: 'index, follow', //
+  siteName: 'TuWebCuántica',
+  robots: 'index, follow',
   og: {
-    title: 'TuWebCuantica | Desarrollo Web, Software y Marketing Digital',
-    description: 'Impulsamos tu negocio con soluciones web a medida, software innovador y estrategias de marketing digital efectivas.',
+    title: 'TuWebCuántica | Innovación y Tecnología Digital en Uruguay',
+    description: 'Descubre cómo TuWebCuántica lidera la transformación digital en Uruguay con soluciones web personalizadas, desarrollo de software a medida y estrategias de marketing digital creadas para impulsar tu negocio.',
     type: 'website',
     url: 'https://www.tuwebcuantica.com',
-    siteName: 'TuWebCuantica',
-    image: 'https://i.ibb.co/TP427vY/tuweb-logo.png',
+    siteName: 'TuWebCuántica',
+    image: 'https://i.ibb.co/DY7YV0g/ultimate-Logo.png',
     locale: 'es_UY',
   },
 };
-
 
 
 export default function RootLayout({ children }) {

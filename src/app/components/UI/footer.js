@@ -90,7 +90,7 @@ const Footer = () => {
       <div className="border-b border-gray-100"></div>
       <div className="container px-4 mx-auto">
         <p className="py-10 md:pb-20 text-md text-gray-400 font-medium text-center">
-          © 2023 tuwebcuantica.com All rights reserved.
+          © 2024 @Kuberaweb.tech All rights reserved.
         </p>
       </div>  
     </footer>
